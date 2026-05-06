@@ -933,32 +933,6 @@ Resources/
 - Metal validation layer enabled in debug
 - Memory leak detection in debug builds
 
-### Manual Testing Checklist
-1. **New Game Flow**: Create character → tutorial (learn combat, magic, companions, upgrades) → open world
-2. **Combat Testing**: Use every weapon type with special abilities against each enemy type
-3. **Magic Testing**: Cast all spell types (destruction, restoration, conjuration, illusion)
-4. **Rune & Upgrade Testing**: Socket all rune types, read all upgrade books, verify stat increases
-5. **God Ruins Testing**: Find all God Ruins in dungeons, verify insane damage/effects
-6. **Companion Testing**: Tame all companion types (dragons, wolves, bears, birds), level to max, evolve
-7. **Armor Testing**: Equip all armor set types, verify set bonuses activate
-8. **Vendor Testing**: Buy/sell all item categories (weapons, armor, runes, spell books)
-9. **Quest Testing**: Complete main story "The God Ruin Prophecy" + all side quests
-10. **Performance Testing**: 30-minute session with God Ruin active + dragon companion, monitoring FPS and thermal
-11. **Edge Cases**: Inventory full, no ammo, low health, companion dead, no mana scenarios
-
-### Specific Feature Tests
-- **Weapon Abilities**: Test all exotic weapon abilities (Shadow Pistol phase shot, Stormcaller chain lightning, Dragon's Breath fire cone)
-- **Rune Combinations**: Test 3-rune combinations on weapons, verify visual auras
-- **God Ruin Effects**: Test screen-wide AOE on "Earthquake Ruin", teleport on "Void Ruin", lifesteal on "Vampire King Ruin"
-- **Dragon Combat**: Test fire/ice/lightning breath attacks, wing buffet knockback, evolution stat changes
-- **Spell Casting**: Test gesture controls for spells, mana consumption, cooldown timers
-- **Companion Evolution**: Verify baby→adult→alpha evolution models, stats, ability unlocks
-
-### Profiling Tools
-- **Metal System Trace** (Instruments): GPU bound analysis
-- **Time Profiler** (Instruments): CPU hot spot identification
-- **Allocations** (Instruments): Memory leak detection
-- **Energy Log** (Instruments): Battery/thermal impact
 
 ## Final Deliverable
 A complete, production-ready iOS game (`Doomnite`) that:
